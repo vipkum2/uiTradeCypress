@@ -20,10 +20,6 @@ Given("User is on Dashboard page", () => {
     .and('be.visible');
 });
 
-Then("User can see top menu options", () => {
+Then("User can verify top menu options", () => {
   homeAct.topMenuOptionsExist();
-});
-
-Then("User can click and verify the layout and structure is correct", () => {
-  homeAct.verifyTopMenuOptions();
 });

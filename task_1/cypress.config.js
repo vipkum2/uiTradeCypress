@@ -59,6 +59,5 @@ module.exports = defineConfig({
     },
     specPattern: "cypress/e2e/**/*.feature",
     stepDefinitions: "cypress/support/step_definations/**/*.js",
-    testIsolation: false,
   },
 });

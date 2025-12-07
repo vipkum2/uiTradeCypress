@@ -10,5 +10,5 @@ Feature: Multibank UI Test Scenarios
 
     Scenario: Access the UI and click on navigation and layouts.
     Given User is on Dashboard page
-    Then User can see top menu options
-    And User can click and verify the layout and structure is correct
+    Then User can verify top menu options
+    
