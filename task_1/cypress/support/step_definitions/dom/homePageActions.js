@@ -54,8 +54,3 @@ export const topMenuOptionsExist = () => {
     cy.get('.p-8').should('be.visible'); //verifying dropdown opened
  
 };
-
-export const verifyTopMenuOptions = () => {
-  //Structure verification
-
-}

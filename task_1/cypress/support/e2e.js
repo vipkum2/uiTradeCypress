@@ -27,4 +27,3 @@ Cypress.on("uncaught:exception", (err, runnable) => {
   console.warn('Uncaught exception captured:', err.message);
   return false;
 });
-

@@ -19,4 +19,3 @@ When("User click on Spot tab", () => {
 Then("User can verify different trading pairs", () => {
   tradeAct.verifyPairs();
 });
-

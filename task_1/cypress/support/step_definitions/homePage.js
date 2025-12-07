@@ -27,8 +27,3 @@ Then("User can see top menu options", () => {
 Then("User can click and verify the layout and structure is correct", () => {
   homeAct.verifyTopMenuOptions();
 });
-
-Given("User is on Vault {string} page", (vaultName) => {
-  homeAct.clickVaultPage(vaultName);
-});
-
