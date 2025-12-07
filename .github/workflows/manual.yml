@@ -39,13 +39,14 @@ jobs:
           
     - name: Clean cypress artifacts
       run: |
-          rm -rf cypress/screenshots/*
-          rm -rf cypress/videos/*
-          rm -rf cypress/reports/* 
+          rm -rf task_1/cypress/screenshots/*
+          rm -rf task_1/cypress/videos/*
+          rm -rf task_1/cypress/reports/* 
 
     # Run Cypress with your specific version
     - name: Run Regression with Cypress 14.5.0
-      run: | 
+      run: |
+          cd task_1
           yarn cypress run
 
     # Artifacts
@@ -54,6 +55,6 @@ jobs:
       with:
           name: cypress-artifacts-${{ github.run_id }}
           path: |
-            cypress/screenshots
-            cypress/reports
+            task_1/cypress/screenshots
+            task_1/cypress/reports
         
