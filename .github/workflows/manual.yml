@@ -24,8 +24,6 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 24.2.0
-        cache: 'yarn'
-        check-latest: true
     # Verify Node version
     - name: Check Node version
       run: node --version
