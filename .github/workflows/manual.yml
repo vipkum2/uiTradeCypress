@@ -35,6 +35,7 @@ jobs:
     # Install project dependencies
     - name: Install dependencies
       run: |
+          cd task_1
           yarn install -D
           
     - name: Clean cypress artifacts
