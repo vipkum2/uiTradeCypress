@@ -1,5 +1,7 @@
 
-# please run as: python task2_pyhton.py  
+# please run as: python task2_pyhton.py 
+# I have just harcoded an example input string for demonstration purposes.
+# We can also add coverade for TABS,NEWLINE and other whitespace characters if needed.
 
 def count_characters(s: str) -> str:
     """
